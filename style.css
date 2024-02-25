@@ -41,45 +41,67 @@ margin-top: 20px;
     display:flex;
     font-size: 30px;
     color: white;
-    margin-top: 50%;
     align-items: center;
     justify-content: center;
 }
 .im1:hover{
     font-size: 35px;
+    padding: 80px;
+    background-color: rgba(242, 171, 78, 0.456);
 }
+
 
 .im2{
     display:flex;
     font-size: 30px;
     color: white;
-    margin-top: 50%;
+   
     align-items: center;
     justify-content: center;
+}
+.im2:hover{
+    font-size: 35px;
+    padding: 80px;
+    background-color: rgba(242, 171, 78, 0.45);
 }
 .im3{
     display:flex;
     font-size: 30px;
     color: white;
-    margin-top: 50%;
+    
     align-items: center;
     justify-content: center;
+}
+.im3:hover{
+    font-size: 35px;
+    padding: 80px;
+    background-color: rgba(242, 171, 78, 0.429);
 }
 .im4{
     display:flex;
     font-size: 30px;
     color: white;
-    margin-top: 50%;
+   
     align-items: center;
     justify-content: center;
+}
+.im4:hover{
+    font-size: 35px;
+    padding: 80px;
+    background-color: rgba(242, 171, 78, 0.517);
 }
 .im5{
     display:flex;
     font-size: 30px;
     color: white;
-    margin-top: 50%;
+   
     align-items: center;
     justify-content: center;
+}
+.im5:hover{
+    font-size: 35px;
+    padding: 80px;
+    background-color: rgba(242, 171, 78, 0.469);
 }
 @media screen and (max-width:425px){
     .maindiv{

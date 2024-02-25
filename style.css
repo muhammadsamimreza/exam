@@ -1,0 +1,94 @@
+.maindiv{
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+gap: 5px;
+margin-top: 20px;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBi40wSYfv1ZNtM5yrVFyby2UnxrhE4KWQvg&usqp=CAU);    
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKEeEo-dqTwNSLB4mI3bbd0uOqz9IOfnBfuw&usqp=CAU);    
+}
+.img3{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    background-image: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1708646400&semt=sph);    
+}
+.img4{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Hopetoun_falls.jpg/800px-Hopetoun_falls.jpg);    
+}
+.img5{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbpuG8RzlcwDPehoccyqeMVGcgqoJF0QkfPA&usqp=CAU);    
+}
+.im1{
+    display:flex;
+    font-size: 30px;
+    color: white;
+    margin-top: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.im1:hover{
+    font-size: 35px;
+}
+
+.im2{
+    display:flex;
+    font-size: 30px;
+    color: white;
+    margin-top: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.im3{
+    display:flex;
+    font-size: 30px;
+    color: white;
+    margin-top: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.im4{
+    display:flex;
+    font-size: 30px;
+    color: white;
+    margin-top: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.im5{
+    display:flex;
+    font-size: 30px;
+    color: white;
+    margin-top: 50%;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:425px){
+    .maindiv{
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+       margin-top: 20px;
+       text-align: center;
+
+    }
+
+}

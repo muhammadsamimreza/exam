@@ -110,7 +110,7 @@ html {
   }
 }
 /* responsive (max-width:425px) */
-@media screen and (max-width: 668px) {
+@media screen and (min-width:426px) and (max-width: 668px) {
   .gallery {
     width: 95%;
     display: grid;
@@ -120,14 +120,5 @@ html {
     padding: 35px 25px;
   }
 }
-@media screen and (max-width: 768px) {
-  .gallery {
-    width: 95%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
-    margin: 0px auto;
-    padding: 35px 25px;
-  }
-}
+
 /* Responsive () */
